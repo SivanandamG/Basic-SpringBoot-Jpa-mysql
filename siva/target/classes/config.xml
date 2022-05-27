@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean name="emp0" class="com.app.siva.Eng" >
+        <property name="empId" value="0000" />
+        <property name="empName" value="NOt Find" />
+        <property name="empRole" value="Not FIND" />
+    </bean>
+
+    <bean name="emp1" class="com.app.siva.Eng" >
+        <property name="empId" value="11427" />
+        <property name="empName" value="sivanandam" />
+        <property name="empRole" value="GET" />
+    </bean>
+
+    <bean name="emp2" class="com.app.siva.Eng" >
+        <property name="empId" value="11426" />
+        <property name="empName" value="Aditya" />
+        <property name="empRole" value="GET" />
+    </bean>
+    <bean name="emp3" class="com.app.siva.Eng" >
+        <property name="empId" value="11425" />
+        <property name="empName" value="Sachin" />
+        <property name="empRole" value="GET" />
+    </bean>
+    <bean name="emp4" class="com.app.siva.Eng" >
+        <property name="empId" value="11428" />
+        <property name="empName" value="Bhaskar" />
+        <property name="empRole" value="GET" />
+    </bean>
+
+
+
+
+
+
+<!--    <bean name="constructor" class="com.app.siva.Eng">-->
+<!--&lt;!&ndash;        <constructor-arg name="empId" value="11427" />&ndash;&gt;-->
+<!--        <constructor-arg name="empName" value="Siva" />-->
+<!--        <constructor-arg name="empRole" value="GET" />-->
+<!--      -->
+<!--    </bean>-->
+</beans>
