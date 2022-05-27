@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/Snapdeal")
+@RequestMapping("/api")
 public class Controller {
 
     @Autowired
